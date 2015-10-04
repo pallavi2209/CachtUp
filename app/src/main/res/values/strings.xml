@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Catch Up</string>
+
+    <string name="txt_about"><b>CatchUp v1.0 @author Pallavi Singh</b>\n\nCatchUp is an application which focuses on reminding user to catch up with his/her connections regularly. The application ranks the contacts based on the phone call activities. A ranked list of contacts is prepared based of their importance w.r.t. to user and last time they were contacted.\nFor example, the connection, which is closest to user and have not been contacted for a long time will be ranked at top of the list.\nThe application also takes in user feedback to learn and prepare a better list next time the application is launched.\nNo more complaints from friends on catching up, you are on it!</string>
+    <string name="catchup_intro">Click this button to go directly to messaging app to send message to your selected friend.</string>
+    <string name="later_intro">This options helps you to put the selected contact in reminder list. You will be reminded next time you open the app. It will be there in the list again.</string>
+    <string name="ignore_intro">Don\'t want to connect with this contact? You will not see this contact again here. Use the ignore option.</string>
+    <string name="help_intro">Catch up is an application which reminds you to contact your friends regularly.\nSo, its been an year you messaged one of the dear friends? No worries! He/She will come first in the list compiled by CatchUp. Just click and Say \"Hey, What\'s up?\"...  </string>
+    <!--<string name="help_intro">Hello world! \n adad </string>-->
+    <!--<string name="help_intro">Hello world! \n adad </string>-->
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_show_contacts">Priority Contacts</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_help">Help</string>
+</resources>

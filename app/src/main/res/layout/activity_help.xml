@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.pallavi.catchupcontacts.Help">
+
+    <TextView
+        android:id="@+id/tv_help_intro"
+        android:text="@string/help_intro" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/imgCatchUp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/tv_help_intro"
+        android:layout_marginTop="10dp"
+        android:contentDescription="TODO"
+        android:scaleType="centerCrop"
+        android:src="@drawable/contactem" />
+
+    <TextView
+        android:id="@+id/tv_catchup_intro"
+        android:text="@string/catchup_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_help_intro"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/imgCatchUp"
+        />
+
+    <ImageView
+        android:id="@+id/imgLater"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/tv_catchup_intro"
+        android:layout_marginTop="15dp"
+        android:contentDescription="TODO"
+        android:scaleType="centerCrop"
+        android:src="@drawable/later1" />
+
+    <TextView
+        android:id="@+id/tv_later_intro"
+        android:text="@string/later_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_catchup_intro"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/imgLater"
+        />
+
+    <ImageView
+        android:id="@+id/imgIgnore"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/tv_later_intro"
+        android:layout_marginTop="15dp"
+        android:contentDescription="TODO"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ignore1" />
+
+    <TextView
+        android:id="@+id/tv_ignore_intro"
+        android:text="@string/ignore_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_later_intro"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/imgIgnore"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/border_rounder_corner"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/listViewActivatedStyle"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight">
+
+        <QuickContactBadge
+            android:id="@android:id/icon"
+            style="@style/quickContactBadgeStyle"
+            android:layout_width="?android:attr/listPreferredItemHeight"
+            android:layout_height="?android:attr/listPreferredItemHeight"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_contact_picture_holo_light" />
+
+        <TextView
+            android:id="@+id/contactName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_toRightOf="@android:id/icon"
+            android:ellipsize="marquee"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/listview_item_padding"
+            android:paddingRight="@dimen/listview_item_padding"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <ImageView
+            android:id="@+id/imgCatchUp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/contactName"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@android:id/icon"
+            android:contentDescription="TODO"
+            android:scaleType="centerCrop"
+            android:src="@drawable/contactem" />
+
+        <ImageView
+            android:id="@+id/imgRCatchUp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_below="@id/contactName"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/imgCatchUp"
+            android:contentDescription="TODO"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/imgLater"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/contactName"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/imgCatchUp"
+            android:contentDescription="TODO"
+            android:scaleType="centerCrop"
+            android:src="@drawable/later1" />
+
+        <ImageView
+            android:id="@+id/imgRLater"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_below="@id/contactName"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/imgLater"
+            android:contentDescription="TODO"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/imgIgnore"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/contactName"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/imgLater"
+            android:contentDescription="TODO"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ignore1" />
+
+        <!--</RelativeLayout>-->
+
+    </RelativeLayout>
+</LinearLayout>
